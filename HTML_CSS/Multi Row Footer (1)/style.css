@@ -1,0 +1,41 @@
+body{
+    background-color:  #101010;
+    font-family: "Roboto", serif;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    gap: 2;   
+}
+.footer1{
+    bottom: 0px;
+    margin: 30px;
+    padding: 10px;
+   
+}
+.content h4{
+    color: rgb(206, 211, 215);
+    font-size: 2rem;
+    margin: 0;
+}
+.content p{
+    color: rgb(153, 155, 158);
+}
+hr{
+    color: rgb(206, 212, 216);
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+    color: rgb(177, 184, 190);
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.privacy{
+    display: flex;
+    gap: 2rem;
+   flex-direction: row;
+}
