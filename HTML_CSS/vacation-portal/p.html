@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body class="bg-gray-100 text-gray-600">
+    <nav class="bg-[#303240] text-white">
+      <!-- Mobile Menu Button -->
+      <div class="lg:hidden">
+        <div class="flex items-center justify-between p-4">
+          <div class="flex items-center">
+            <span
+              ><img
+                src="https://vacation.epam.com/epm-vts-web/static/media/vacation.9e7495fc82c3decbfe5fa4f9976c82ea.svg"
+                alt="vacation"
+                class="w-8 h-8 scale-500 ml-10 space-y-4"
+            /></span>
+          </div>
+          <button class="text-white focus:outline-none">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <!-- Desktop Navigation -->
+      <div class="hidden lg:block p-4 position">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-6">
+            <div class="flex items-center px-3 py-1">
+              <span>
+                <img
+                  src="https://vacation.epam.com/epm-vts-web/static/media/vacation.9e7495fc82c3decbfe5fa4f9976c82ea.svg"
+                  alt="vacation"
+                  class="cursor-pointer w-8 h-8 scale-500 ml-10 space-y-4"
+                />
+              </span>
+            </div>
+            <div class="flex space-x-4 pl-12">
+              <a href="#" class="hover:bg-gray-900 px-3 py-2 font-bold rounded">
+                Dashboard
+              </a>
+              <a href="#" class="hover:bg-gray-900 px-3 py-2 font-bold rounded">
+                Requests
+              </a>
+              <a href="#" class="hover:bg-gray-900 px-3 py-2 font-bold rounded">
+                Balances
+              </a>
+              <a href="#" class="hover:bg-gray-900 px-3 py-2 font-bold rounded">
+                Notifications
+              </a>
+            </div>
+          </div>
+          <div class="flex items-center space-x-4">
+            <button
+              class="hover:bg-[#00769C] cursor-pointer bg-[#0086AD] px-4 py-2 rounded-lg"
+            >
+              + Add request
+            </button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="24"
+              viewBox="0 0 25 24"
+              class="fill-white cursor-pointer"
+            >
+              <path
+                d="M12.45 18c.35 0 .646-.121.888-.363.241-.241.362-.537.362-.887s-.12-.646-.362-.887a1.208 1.208 0 00-.888-.363c-.35 0-.646.121-.888.363a1.206 1.206 0 00-.362.887c0 .35.12.646.362.887.242.242.538.363.888.363zm-.9-3.85h1.85c0-.55.063-.983.188-1.3.125-.317.479-.75 1.062-1.3a7.483 7.483 0 001.025-1.238c.25-.391.375-.862.375-1.412 0-.933-.342-1.65-1.025-2.15-.683-.5-1.492-.75-2.425-.75-.95 0-1.72.25-2.312.75-.592.5-1.005 1.1-1.238 1.8l1.65.65c.083-.3.271-.625.563-.975.291-.35.737-.525 1.337-.525.533 0 .933.146 1.2.437.267.292.4.613.4.963 0 .333-.1.646-.3.937-.2.292-.45.563-.75.813-.733.65-1.183 1.142-1.35 1.475-.167.333-.25.942-.25 1.825zM12.5 22a9.733 9.733 0 01-3.9-.788 10.092 10.092 0 01-3.175-2.137c-.9-.9-1.612-1.958-2.137-3.175A9.733 9.733 0 012.5 12a9.74 9.74 0 01.788-3.9 10.092 10.092 0 012.137-3.175c.9-.9 1.612-1.613 3.175-2.138A9.743 9.743 0 0112.5 2a9.733 9.733 0 013.9.787 10.092 10.092 0 013.175 2.138c.9.9 1.612 1.958 2.137 3.175A9.732 9.732 0 0122.5 12c1.657 0 3 .895 3 2.887v7.146c0 .314.191.672.453 1.058h1.587c.642 1.945 1.595 3.956 3.29 5.85 2.475 2.755 5.459 4.434 9.06 5.375v6.25c0 .892-.767 1.565-1.564 1.565-.7 0-1.56-.658-2.475-1.564l-7.225 7.225-7.225-7.225c-.918-.74-1.562-1.587-1.562-2.462v-1.835H18.857c-2.92.297-5.457 1.388-7.45 2.686V93.69c0 4.418 4.476 8.074 10.1 8.074h45.17c5.624 0 10.1-3.656 10.1-8.074V54.65H72c-.176 0-1.03.014-1.565.188l-7.225 7.225c-.633.648-1.04 1.566-1.04 2.462v1.844c0 .766.642 1.422 1.565 1.565.7 0 1.56-.658 2.475-1.565l7.225-7.225c.418.374.868.63 1.565.63 1.89 0 3.271-.958 4.153-2.579V21.34h-2.837C107.991 8.73 104.87 7.17 101.54 7.17c-2.2 0-4.07.792-5.63 2.06 2.84-1.46 5.3-3.892 7.298-6.91 1.27-2.213 1.7-4.88 1.7-7.54 0-.465-.093-.95-.271-1.369A11.523 11.523 0 00101.4 0c-3.31 0-6 2.686-6 6s2.69 6 6 6 6-2.686 6-6c0-3.31-2.69-6-6-6zm0 2c2.076 0 3.746 1.685 4.632 3.785h-2.338c.066.12.118.229.174.325.06.108.075.161.075.799v2.418h2.338c.248.61.45 1.025.45 2.83 0 3.025-2.25 4.759-5.027 5.027h-5.027v-2.84c0-1.564.895-2.11 2.821-2.11h2.38c.058.08.106.171.149.359h-2.38c-.935-.895-2.4-1.844-4.947-1.844-4.604 0-8.384 3.78-8.384 8.384 0 4.607 3.8 8.384 8.384 8.384 3.07 0 5.94-1.848 7.108-4.934l.348-.359c.855.668 1.886 1.087 2.933 1.087 1.711 0 3.268-1.242 4.947-2.83h2.925c.04.115.076.186.076.838v2.843c0 1.564-.895 2.11-2.821 2.11h-2.38c-.06.12-.118.198-.174.325-.066-.12-.114-.188-.174-.272l-.135-.276c.066-.18.112-.36.112-.58 0-.372-.297-.726-.838-.968l-.673-.316c-.54-.306-1.223-.549-2.21-.601h-.001c-.865.18-1.715.316-2.54.316-1.635 0-3.217-.68-4.695-1.733l-.255-.174h-2.38c-1.564 0-2.821-1.246-2.821-2.839v-4.625h2.38c-.272.306-.506.64-.67.96l-.194.332h-.008c-.895.106-1.817.26-2.736.242-1.56.008-2.475-1.12-2.475-2.76 0-1.56.895-2.82 2.893-2.82 1.068 0 2.5-.224 2.5 1.562v.582h2.923V21.34h-2.923c-2.076 0-3.746 1.684-4.632 3.785-.051.059-.102.119-.172.169a11.523 11.523 0 002.198 9.978 11.523 11.523 0 001.53 6.92c0 4.212-3.253 7.53-7.977 7.53-4.707 0-8.352-3.322-8.352-7.531a11.523 11.523 0 004.056-7.531c.416-.281.835-.52 1.28-.675.489-.17 1.049-.224 1.648-.184v-2.43h2.ernaut"
+              ></path>
+            </svg>
+            <img
+              src="https://static.cdn.epam.com/avatar/b6795623cdceaeac599aa1b284a8a366.jpg"
+              alt="profile"
+              class="w-8 h-8 rounded-full"
+            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="36"
+              height="36"
+              viewBox="0 0 24 24"
+              class="fill-white cursor-pointer"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M12 10.85a1.333 1.333 0 1 1 0 2.666 1.333 1.333 0 0 1 0-2.666zm5.333 0a1.333 1.333 0 1 1 0 2.666 1.333 1.333 0 0 1 0-2.666zm-10.666 0a1.333 1.333 0 1 1 0 2.666 1.333 1.333 0 0 1 0-2.666zm5.333-6a1.333 1.333 0 1 1 0 2.666 1.333 1.333 0 0 1 0-2.666zm5.333 0a1.333 1.333 0 1 1 0 2.666 1.333 1.333 0 0 1 0-2.666zm-10.666 0a1.333 1.333 0 1 1 0 2.666 1.333 1.333 0 0 1 0-2.666zm5.333 12a1.333 1.333 0 1 1 0 2.666 1.333 1.333 0 0 1 0-2.666zm5.333 0a1.333 1.333 0 1 1 0 2.666 1.333 1.333 0 0 1 0-2.666zm-10.666 0a1.333 1.333 0 1 1 0 2.666 1.333 1.333 0 0 1 0-2.666z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Tab section -->
+    <div class="flex bg-white h-14 space-x-4 p-4 shadow font-semibold">
+      <button class="cursor-pointer">Personal</button>
+      <button class="flex cursor-pointer">
+        Action required
+        <span class="bg-gray-300 font-medium rounded-full px-1">0</span>
+      </button>
+    </div>
+
+    <!-- Main Content -->
+    <main class="max-w-1200px">
+      <section class="mb-24">
+        <div class="flex justify-between items-center mt-12 mb-5 text-gray-700">
+        <h2 class="text-2xl m-0">My requests</h2>
+        <div><a href="#" class="text-blue-500">Go to Balances</a></div>
+        </div>
+        <div class="max-w-7xl mx-auto bg-white rounded-lg mt-12 mb-5 shadow-md">
+        <div class="flex font-bold">
+        <a href="#" class="py-4 px-4 text-gray-700 border-b-2 border-blue-400">All requests <span class="bg-blue-400 text-white rounded-full px-2 py-1 text-xs ml-1">10</span></a>
+        <a href="#" class="py-4 px-4 text-gray-700">Regular vacation <span class="bg-gray-200 rounded-full px-2 py-1 text-xs ml-1">3</span></a>
+        <a href="#" class="py-4 px-4 text-gray-700">Sick leave <span class="bg-gray-200 rounded-full px-2 py-1 text-xs ml-1">3</span></a>
+        <a href="#" class="py-4 px-4 text-gray-700">Exceptional leave <span class="bg-gray-200 rounded-full px-2 py-1 text-xs ml-1">4</span></a>
+        </div>
+        <div class="overflow-x-auto">
+        <table class="w-full min-w-[800px]">
+        <thead>
+        <tr class="bg-gray-100 text-gray-700 text-xs">
+        <th class="text-left p-4 pr-10">CATEGORY <span><i class="fas fa-right-left rotate-90 text-gray-400"></i></span></th>
+        <th class="text-left p-4 pr-10">REASON <span><i class="fas fa-right-left rotate-90 text-gray-400"></i></span></th>
+        <th class="text-left p-4 pr-10">STATUS <span><i class="fas fa-right-left rotate-90 text-gray-400"></i></span></th>
+        <th class="text-left p-4 pr-10">PERIOD <span><i class="fas fa-right-left rotate-90 text-gray-400"></i></span></th>
+        <th class="text-left p-4 pr-10">APPROVER <span><i class="fas fa-right-left rotate-90 text-gray-400"></i></span></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="border-b border-gray-200">
+        <td class="p-4 pr-10 text-gray-500"><span class="inline-block w-5 h-5 bg-red-300 rounded-full mr-2 align-middle"></span>Sick leave</td>
+        <td class="p-4 pr-10 text-gray-500">Regular sick leave</td>
+        <td class="p-4 pr-10"><span class="bg-gray-200 text-gray-600 px-3 py-1 rounded-full text-sm">Closed</span></td>
+        <td class="p-4 pr-10 text-gray-500">Dec 30, 2024 - Dec 31, 2024 (2d)</td>
+        <td class="p-4 pr-10">
+        <img src="https://media.licdn.com/dms/image/v2/C5103AQFYLI7h8ZHiFQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1523291716660?e=1744243200&v=beta&t=YzVTLYhLewWeDP2OD6WeyrUczn3c2yXb1kVEKOHP9Oo" alt="Approver" class="w-8 h-8 rounded-full inline-block mr-2 align-middle">
+        <span class="text-blue-500">Sameer Mishra</span>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        </div>
+        </section>
+    </main>
+    <!-- Requests Container -->
+ 
+
+    <div
+      class="fixed bottom-10 left-295 w-14 h-14 bg-[#9282FF] rounded-full items-end justify-center"
+    >
+      <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M21.3822 4.25L22.6667 1.88889L23.9511 4.25C24.4233 5.1 25.1222 5.79889 25.9722 6.27111L28.3333 7.55555L25.9722 8.84C25.1222 9.31222 24.4233 10.0111 23.9511 10.8611L22.6667 13.2222L21.3822 10.8611C20.91 10.0111 20.2111 9.31222 19.3611 8.84L17 7.55555L19.3611 6.27111C20.2111 5.79889 20.91 5.1 21.3822 4.25Z"
+          fill="white"
+        ></path>
+        <path
+          d="M21.3822 23.1389L22.6667 20.7778L23.9511 23.1389C24.4233 23.9889 25.1222 24.6878 25.9722 25.16L28.3333 26.4444L25.9722 27.7289C25.1222 28.2011 24.4233 28.9 23.9511 29.75L22.6667 32.1111L21.3822 29.75C20.91 28.9 20.2111 28.2011 19.3611 27.7289L17 26.4444L19.3611 25.16C20.2111 24.6878 20.91 23.9889 21.3822 23.1389Z"
+          fill="white"
+        ></path>
+        <path
+          d="M13.2222 9.44444L11.5033 12.58C10.88 13.7133 9.93555 14.6578 8.80221 15.2811L5.66666 17L8.80221 18.7189C9.93555 19.3422 10.88 20.2867 11.5033 21.42L13.2222 24.5556L14.9411 21.42C15.5644 20.2867 16.5089 19.3422 17.6422 18.7189L20.7778 17L17.6422 15.2811C16.5089 14.6578 15.5644 13.7133 14.9411 12.58L13.2222 9.44444Z"
+          fill="white"
+        ></path>
+      </svg>
+    </div>
+  </body>
+</html>

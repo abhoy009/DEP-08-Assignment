@@ -1,0 +1,73 @@
+{
+    "user": {
+        "employeeID": "8760000000007605412",
+        "fullName": "Abhoy Das",
+        "email": "abhoy_das@epam.com",
+        "region": "India",
+        "prodStatusId": 1,
+        "isDismissed": false,
+        "position": null,
+        "startWorkDate": null,
+        "calendarType": null,
+        "userProgram": null,
+        "isRegionChanged": false
+    },
+    "overview": {
+        "totalDays": 15,
+        "regularVacation": 9,
+        "overtime": 0,
+        "sickLeave": 6,
+        "presentDays": 0
+    },
+    "requests": {
+        "total": 10,
+        "regularVacation": 3,
+        "sickLeave": 3,
+        "exceptionalLeave": 4,
+        "list": [
+            {
+                "category": "Sick leave",
+                "reason": "Regular sick leave",
+                "status": "Closed",
+                "period": {
+                    "start": "2024-12-30",
+                    "end": "2024-12-31",
+                    "duration": "2d"
+                },
+                "approver": {
+                    "name": "Sameer Mishra",
+                    "avatar": "https://media.licdn.com/dms/image/v2/C5103AQFYLI7h8ZHiFQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1523291716660?e=1744243200&v=beta&t=YzVTLYhLewWeDP2OD6WeyrUczn3c2yXb1kVEKOHP9Oo"
+                }
+            },
+            {
+                "category": "Regular vacation",
+                "reason": "Annual leave",
+                "status": "Approved",
+                "period": {
+                    "start": "2024-07-15",
+                    "end": "2024-07-19",
+                    "duration": "5d"
+                },
+                "approver": {
+                    "name": "piyush ",
+                    "avatar": "path/to/john-doe-avatar.jpg"
+                }
+            },
+            {
+                "category": "Exceptional leave",
+                "reason": "Family emergency",
+                "status": "Pending",
+                "period": {
+                    "start": "2024-09-10",
+                    "end": "2024-09-11",
+                    "duration": "2d"
+                },
+                "approver": {
+                    "name": "venu ",
+                    "avatar": "path/to/jane-smith-avatar.jpg"
+                }
+            }
+        ]
+    }
+}
+\
